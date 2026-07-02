@@ -21,8 +21,6 @@ export interface Employee {
 
   isActive: boolean;
 
-  skills: string[];
-
   address: Address;
 
   projects: number;

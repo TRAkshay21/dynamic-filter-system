@@ -9,7 +9,7 @@ export type FieldType =
 
 export interface SelectOption {
   label: string;
-  value: string | number | boolean;
+  value: string | number;
 }
 
 export interface FilterField {
