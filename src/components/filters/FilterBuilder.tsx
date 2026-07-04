@@ -1,4 +1,4 @@
-import { Box, Button, Chip, Typography } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 import { useEffect, useMemo, useState } from 'react'
 import type { FilterCondition, FilterField } from '../../types/filter'
 import { applyFilters } from '../../utils/filterEngine'
@@ -57,8 +57,6 @@ function FilterBuilder<T extends Record<string, any>>({
     <Box>
       <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 2 }}>
         <Typography variant="h6">Filter Builder</Typography>
-        {/* <Chip label="AND between fields" color="primary" variant="outlined" />
-        <Chip label="OR within same field" color="secondary" variant="outlined" /> */}
       </Box>
 
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
